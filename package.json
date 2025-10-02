@@ -1,0 +1,44 @@
+{
+  "name": "blockchain-authentication-system",
+  "version": "1.0.0",
+  "description": "A blockchain-based authentication system using Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test",
+    "deploy": "truffle migrate --reset",
+    "deploy:local": "node scripts/deploy.js",
+    "setup": "npm run compile && npm run deploy && node scripts/post-deploy.js",
+    "start:local": "ganache-cli --port 8545 --networkId 1337"
+  },
+  "dependencies": {
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^5.7.2",
+    "@ethersproject/providers": "^5.7.2",
+    "@web3-react/core": "^6.1.9",
+    "@metamask/detect-provider": "^2.0.0",
+    "truffle": "^5.8.0",
+    "@openzeppelin/contracts": "^4.9.0",
+    "ganache-cli": "^6.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "blockchain",
+    "authentication",
+    "ethereum",
+    "web3",
+    "metamask"
+  ],
+  "author": "Blockchain Authentication System",
+  "license": "MIT"
+}
