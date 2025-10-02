@@ -1,4 +1,4 @@
-# 🔐 Blockchain Authentication System
+Blockchain Authentication System
 
 A secure, decentralized authentication system built on the Ethereum blockchain that replaces traditional username-password authentication with wallet-based authentication.
 
@@ -47,60 +47,6 @@ Before running this project, make sure you have:
 - **MetaMask** browser extension
 - **Ganache** (for local development)
 
-## 🚀 Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd blockchain-authentication-system
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Start Local Blockchain
-
-Install and start Ganache:
-
-```bash
-# Install Ganache globally
-npm install -g ganache-cli
-
-# Start Ganache
-ganache-cli
-```
-
-Or download Ganache Desktop from [https://trufflesuite.com/ganache/](https://trufflesuite.com/ganache/)
-
-### 4. Deploy Smart Contracts
-
-```bash
-# Compile contracts
-npm run compile
-
-# Deploy to local blockchain
-npm run deploy
-```
-
-### 5. Configure Environment
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_CONTRACT_ADDRESS=<deployed-contract-address>
-```
-
-### 6. Start Development Server
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:3000`
 
 ## 🔧 Usage
 
@@ -124,26 +70,7 @@ The application will be available at `http://localhost:3000`
 - Leave fields empty to keep current values
 - Submit changes and approve in MetaMask
 
-## 📁 Project Structure
 
-```
-blockchain-authentication-system/
-├── contracts/
-│   └── AuthenticationSystem.sol    # Main smart contract
-├── migrations/
-│   └── 1_deploy_authentication.js  # Contract deployment
-├── pages/
-│   ├── _app.js                     # App wrapper with providers
-│   └── index.js                    # Main homepage
-├── contexts/
-│   └── MetaMaskContext.js          # MetaMask integration
-├── styles/
-│   ├── globals.css                 # Global styles
-│   └── Home.module.css             # Component styles
-├── truffle-config.js               # Truffle configuration
-├── package.json                    # Dependencies and scripts
-└── README.md                       # Project documentation
-```
 
 ## 🔒 Smart Contract Features
 
@@ -163,26 +90,6 @@ blockchain-authentication-system/
 - `getUserInfo()`: Retrieve user data
 - `isUserActive()`: Check account status
 
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-npm run test
-```
-
-## 🚀 Deployment
-
-### Local Development
-1. Start Ganache
-2. Deploy contracts: `npm run deploy`
-3. Update `.env.local` with contract address
-4. Start frontend: `npm run dev`
-
-### Production Deployment
-1. Deploy contracts to Ethereum mainnet/testnet
-2. Update environment variables
-3. Build and deploy frontend
 
 ## 🔐 Security Considerations
 
@@ -192,33 +99,4 @@ npm run test
 - **Input Validation**: Client and contract-side validation
 - **Access Controls**: Proper permission management
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🆘 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review the smart contract code
-
-## 🔮 Future Enhancements
-
-- **Multi-chain Support**: Support for other blockchains
-- **Social Login**: Integration with social platforms
-- **Two-Factor Authentication**: Additional security layers
-- **Mobile App**: Native mobile application
-- **API Integration**: REST API for third-party integration
-
----
-
-**Built with ❤️ for secure, decentralized authentication**
