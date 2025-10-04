@@ -100,4 +100,7 @@ Before running this project, make sure you have:
 - **Access Controls**: Proper permission management
 <img width="1920" height="1080" alt="Screenshot 2025-10-04 112351" src="https://github.com/user-attachments/assets/b0fa683e-0011-4c81-9507-bfe19bcaef6a" />
 
+<img width="1920" height="1080" alt="Screenshot 2025-10-04 112407" src="https://github.com/user-attachments/assets/0a31e4cb-deaa-404f-b3a4-2e2af0e0345e" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-04 112416" src="https://github.com/user-attachments/assets/71151a14-8fcc-41e9-abcd-0cd3c4901c15" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-04 112431" src="https://github.com/user-attachments/assets/5ba9a2de-5437-4764-8ed4-6d7381010c82" />
 
