@@ -98,5 +98,6 @@ Before running this project, make sure you have:
 - **Contract Security**: Audited smart contracts
 - **Input Validation**: Client and contract-side validation
 - **Access Controls**: Proper permission management
+<img width="1920" height="1080" alt="Screenshot 2025-10-04 112351" src="https://github.com/user-attachments/assets/b0fa683e-0011-4c81-9507-bfe19bcaef6a" />
 
 
