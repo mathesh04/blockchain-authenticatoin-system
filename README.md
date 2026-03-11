@@ -48,7 +48,7 @@ Before running this project, make sure you have:
 - **Ganache** (for local development)
 
 
-## 🔧 Usage
+##  Usage
 
 ### 1. Connect Wallet
 - Click "Connect MetaMask" button
