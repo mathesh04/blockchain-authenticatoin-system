@@ -2,7 +2,7 @@ Blockchain Authentication System
 
 A secure, decentralized authentication system built on the Ethereum blockchain that replaces traditional username-password authentication with wallet-based authentication.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 This project addresses the increasing risk of using the same credentials (username-password) everywhere or linking one account with every service. The solution provides:
 
@@ -11,7 +11,7 @@ This project addresses the increasing risk of using the same credentials (userna
 - **Decentralized Identity**: User identity is managed on the blockchain
 - **Browser Integration**: Works seamlessly with MetaMask and other Web3 wallets
 
-## 🚀 Features
+##  Features
 
 - **Wallet-based Authentication**: Connect with MetaMask or any Web3 wallet
 - **User Registration**: Register on the blockchain with username and email
@@ -20,7 +20,7 @@ This project addresses the increasing risk of using the same credentials (userna
 - **Modern UI**: Beautiful, responsive interface with blockchain theme
 - **Real-time Updates**: Live blockchain transaction status
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Smart Contracts
 - **Solidity**: Smart contract development
@@ -38,7 +38,7 @@ This project addresses the increasing risk of using the same credentials (userna
 - **Ganache**: Local blockchain for development
 - **Web3.js**: Blockchain interaction library
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running this project, make sure you have:
 
@@ -72,7 +72,7 @@ Before running this project, make sure you have:
 
 
 
-## 🔒 Smart Contract Features
+## Smart Contract Features
 
 ### AuthenticationSystem.sol
 
@@ -91,7 +91,7 @@ Before running this project, make sure you have:
 - `isUserActive()`: Check account status
 
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - **Private Key Security**: Never expose private keys
 - **Network Security**: Use HTTPS in production
